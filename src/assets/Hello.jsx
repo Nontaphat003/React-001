@@ -3,7 +3,7 @@ const Hello = ({ message, name}) => {
     return (
         <div>
             <h1>
-                {message} {name}
+                {name} {message}
             </h1>
         </div>
     );
