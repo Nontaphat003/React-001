@@ -12,8 +12,8 @@ export default function Counter() {
     return (
         <div>
             <h1>Count value is: {count}</h1>
-            <button> onClick={increment}increment</button>
-            <button> onClick={decrement}decrement</button>
+            <button onClick={increment}>increment</button>
+            <button onClick={decrement}>decrement</button>
         </div>
       );
 

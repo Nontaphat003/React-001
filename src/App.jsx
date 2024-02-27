@@ -5,8 +5,8 @@ import Counter from "./assets/Counter";
 function App() {
 
   const helloData = [
-    {name: "Mike", surname: "Brow"},
-    {name: "Bob", surname: "Swagger"}
+    {name: "Mike", message: "Brow"},
+    {name: "Bob", message: "Swagger"}
   ];
 
   return (
